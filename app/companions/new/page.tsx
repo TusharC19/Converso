@@ -1,6 +1,14 @@
+import ComapanionForm from "@/components/CompanionForm";
+
 const NewCompanion = () =>{
     return (
-        <div>NewCompanion</div>
+        <main className="min-lg:w-2/3 min-md:w-2/3 items-center justify-center">
+            <article className="w-full gap-4 flex flex-col">
+                <h1>Companion Builder</h1>
+
+                <ComapanionForm/>
+            </article>
+        </main>
     )
 }
 
